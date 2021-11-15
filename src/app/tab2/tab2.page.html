@@ -1,0 +1,44 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Tab 2
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header translucent>
+    <ion-toolbar>
+      <ion-segment [(ngModel)]="selectTabs">
+        <ion-segment-button value="favorites">
+          <ion-label>Favorites</ion-label>
+        </ion-segment-button>
+        <ion-segment-button value="prev-orders">
+          <ion-label>Previous Orders</ion-label>
+        </ion-segment-button>
+      </ion-segment>
+    </ion-toolbar>
+  </ion-header>
+  <div *ngIf="selectTabs == 'favorites'">
+  <ion-list *ngFor="let p of favorites">
+    <div class="card-align">
+        <ion-card>
+          <img src="{{ p.img }}" class="rand-img"/>
+            <ion-card-header>
+              <ion-card-title>{{ p.name }}</ion-card-title>
+            </ion-card-header>
+            <ion-card-content>
+              <ion-label color="secondary">
+                <b></b>
+              </ion-label>
+              <br/>
+              <ion-button color="primary" (click)="addToCart(p)"><ion-icon name="cart"></ion-icon></ion-button>
+              <ion-button style="--background:pink"><ion-icon name="heart-outline"></ion-icon></ion-button>
+              <ion-button color="secondary"><ion-icon name="share-social-outline"></ion-icon></ion-button>
+            </ion-card-content>
+          </ion-card>
+    </div>
+  </ion-list>
+  </div>
+
+</ion-content>

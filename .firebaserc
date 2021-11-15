@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "aling-nena-app": {
+      "hosting": {
+        "app": [
+          "aling-nena-app"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "aling-nena-app"
+  }
+}

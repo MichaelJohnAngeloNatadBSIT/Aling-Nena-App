@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "aling-nena-app",
+  "private_key_id": "0e7ca97e93aa6f4053d5a5140cf3dcdde2ab7c46",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDcDN2BNL2Zx401\nG2cd/uln1eYcfLfSbobyc+BziiewTew9f6P+Q5S8bhOegOTLJWci/8WSLQ5ViXtt\nV0lkw0Yts3Hq9GkpAJbwX9k91DZzR2b61KwZWaTd56SkCeeaKtkAD/BB8qeuOXQD\ny/YTF6rrQ4WTDbLyJYGQlT8m5ZwFrYTlo45WkQe59HesmpjVUhDOuPuhMhiyzAcz\nMyVswSiTqzdZ50SLXe+kPPavj8niifShiPJNMGQ4XlGuFuTAU71HPJNMcIrHArXK\nCrqk5E7GQN63S3mfODkRn7jVSCk3e8D/KMl8uCmEPmxd2nEAoLxmQ+9JxiEEs/nO\nD0hgLxQfAgMBAAECggEAPoT5Ogh+Bf8IQ5pxhbgzIGlJY7abk5ILjT8W+jy6YgEB\nqcdmFIum6pJryJDecElEMFFzFMDwXaUeCEbQd2xzt/BP4W1no1qjh8/zrPlqLv6O\nZ52c9+bcTJ/Pyzt1LfwWg0oD/PiwY3O3XozIcUw8J3Obs9gki1/Um/uLYcXCumm3\nhOUVqOUaYsX7WHtgGhJ6/o6xeUhEIYQ9TUTSKPvsO+7xYBmbpeOLN1ZcJKkxFmM7\n9NkwKZ6O+fkn5uJZbjWOreJ0G9vPDQlnHtiRPINRYD8zxcFt+gkOLidHYaS3HXL1\nDZNMCDG2A2Qcjgcua1AEnQFOqIkAgk5xmjyjtti5gQKBgQDvWil/SYZ0ZYaruYLK\n/KlG5Ec1FAAOdZ7C2T/2v+GSe4BJoP7rQJwWS9nwurswJfSN/+PG2/Z2YA4lX22m\nYK3HcfmtRKXnkCe0FLjR+01pJeVYp53CpK5AscMVYqeqFePkKl45XkLKAqGR1hGV\nKX/hIOtjuWWPSJeZDimxmmL0zwKBgQDrWwSqRghit1vzBFLqUErJyqJj8k6B/iXb\n5VUGjzPgVtFhHTtW0v1yr4gYxyqkoaG+El5SnWeRAbjpfP2Z4IO9zRtGZ3u8Oadr\nZ4/U54+OhVjiOBVF+NjwhWc0LlKA+KYSY39c+yDCz7sZ9vzEfQN9i8SBFvQpFuvf\nuQvyySVfsQKBgQCkYHc/Q29jYJYsOSrp3LskRIHioemoBH8Tsb+L5hs0Tjy8VCS9\ny5FmfpEeEh+b4XUiUCpN16JbiXwtjmvvZ1XxMwUVSZ/md8nMkq6bBssS+0OWrwZZ\nNl+1bl9bwHUFCiOH/tDW9TVJJqVvUmSg2+9G3STLR/fHf0Mdiex4XF65YQKBgEZC\nCYZ7GY2+huho5gekqG7M2uVTNDSCFfMq5tLqdOYHhMGk5E3q9lYCKHKdIhG7XnlL\nKnUnH/+dsAGjmmERMMK8M+Q0iC+MVnotlDZOWgCFth7x9wfIXZqPeFuPaHmvwIPE\nyASNwx3kvUnm/VX6q8wSqTqQC5soiIlkyDhV655BAoGBAK/+gYXgEI1ENsE5lKdG\npuwhVOFpdF2QbhUi2CnDMqT0W+BYngIY0JgNTyq76MVKm08SsZJlVBaqzuuM2UCz\n2uRvCbYvrgp5gVIWTQyi5o70aF5BrwmSCvmYJFExUpmAOeaEh7K3Y9Y1BLWVew4v\nhs6ptVaFgKexQ1Aal3slHvSz\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-bnuq5@aling-nena-app.iam.gserviceaccount.com",
+  "client_id": "104180430804727978982",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-bnuq5%40aling-nena-app.iam.gserviceaccount.com"
+}
