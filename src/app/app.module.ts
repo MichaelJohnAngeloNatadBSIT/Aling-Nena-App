@@ -11,6 +11,8 @@ import { CartModalPageModule } from './cart-modal/cart-modal.module';
 
 import { AngularFireModule} from '@angular/fire/compat'
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
+import { AngularFireAuthModule } from '@angular/fire/compat/auth';
+import { AngularFireDatabaseModule } from '@angular/fire/compat/database';
 
 
 
@@ -25,8 +27,9 @@ import { provideFirestore, getFirestore } from '@angular/fire/firestore';
 @NgModule({
   declarations: [AppComponent],
   entryComponents: [],
-  imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, CartModalPageModule, AngularFireModule.initializeApp(environment.firebase),AngularFirestoreModule, provideFirebaseApp(() => initializeApp(environment.firebase)), provideAnalytics(() => getAnalytics()), provideAuth(() => getAuth()), provideDatabase(() => getDatabase()), provideFirestore(() => getFirestore()), provideStorage(() => getStorage())],
-  providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }, ScreenTrackingService,UserTrackingService],
+  imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, CartModalPageModule, AngularFireModule.initializeApp(environment.firebase),AngularFirestoreModule, provideFirebaseApp(() => initializeApp(environment.firebase)), provideAnalytics(() => getAnalytics()), provideAuth(() => getAuth()), provideDatabase(() => getDatabase()), provideFirestore(() => getFirestore()), provideStorage(() => getStorage()), AngularFireAuthModule,
+    AngularFireDatabaseModule,],
+  providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }, ScreenTrackingService,UserTrackingService ,AngularFirestoreModule],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

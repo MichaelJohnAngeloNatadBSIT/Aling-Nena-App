@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { FavoritesService } from '../services/favorites.service';
+import { MenuController } from '@ionic/angular';  
 
 @Component({
   selector: 'app-tab2',
@@ -12,10 +13,24 @@ export class Tab2Page {
 
   favorites = [];
 
-  constructor( private favoriteService: FavoritesService) { }
+  constructor( private favoriteService: FavoritesService, private menu: MenuController) { }
 
   ngOnInit(){
     this.favorites = this.favoriteService.getFavorites();
+  }
+  
+  openFirst() {
+    this.menu.enable(true, 'first');
+    this.menu.open('first');
+  }
+
+  openEnd() {
+    this.menu.open('end');
+  }
+
+  openCustom() {
+    this.menu.enable(true, 'custom');
+    this.menu.open('custom');
   }
 
 }
