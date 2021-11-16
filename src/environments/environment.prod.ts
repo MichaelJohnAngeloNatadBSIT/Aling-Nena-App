@@ -1,3 +1,5 @@
+
+
 export const environment = {
   firebase: {
     projectId: 'aling-nena-app',
@@ -10,4 +12,6 @@ export const environment = {
     measurementId: 'G-GWGY2MM5MH',
   },
   production: true
+
+
 };
